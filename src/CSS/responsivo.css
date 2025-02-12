@@ -1,0 +1,164 @@
+/* Pequenas telas (Celulares) */
+@media screen and (max-width: 480px) {
+    
+    #nomesocial{
+        font-size: 30px;
+        }
+    
+      
+        li{
+            margin: 10px;
+            font-size: 20px;
+              }
+    
+       
+    
+        #tamanho-section-principal{
+             margin: 10px;
+            border: 1px;
+            }
+    
+                
+        #apresentacao{
+            height: 300px;
+               }
+    
+               
+               #foto-perfil {
+                height: 450px; 
+                }
+            
+            
+            
+            #sobre{
+                margin: 10px;
+                }
+    
+            #sobre span {
+                font-size: 20px;
+                margin: 9px;
+                            }
+    
+            #sobre h1{
+                font-size: 40px;  
+            }
+    
+            #btn-download {
+                margin: 20px;
+                font-size: 18px;
+                padding: 10px 20px;
+                }
+            
+            
+            .cartao img {
+                width: 80px; 
+                height: 80px;
+                object-fit: contain; 
+                margin-bottom: 10px;
+            }
+            
+            
+            
+            #contatos{
+                font-size: 24px;
+                padding: 20px;
+               
+                
+            }
+            
+}
+
+/* Media Query para o Infinix Hot S11 (720px de largura) */
+@media screen and (max-width: 720px) {
+    #nomesocial {
+        font-size: 35px;
+    }
+    
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    li {
+        margin: 10px;
+        font-size: 16px;
+    }
+    
+    #foto-perfil {
+        max-width: 250px;
+    }
+    
+    #container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Telas grandes (Laptops) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #nomesocial{
+        font-size: 60px;
+        }
+ 
+    li{
+        margin: 30px;
+        font-size: 30px;
+        }
+
+        #apresentacao{
+            height: 300px;
+            font-size: 25px;
+               }
+
+               #apresentacao span{
+                font-size: 25px;
+                   }
+
+    #foto-perfil {
+        height: 500px; 
+        }
+
+        #sobre span {
+            font-size: 30px;
+            margin: 9px;
+                        }
+
+                        #sobre p{
+                            font-size: 25px;  
+                            margin: 10px;
+                        }
+
+        #sobre h1{
+            font-size: 50px;  
+        }
+}
+
+/* Telas extra grandes (Desktops e monitores grandes) */
+@media screen and (min-width: 1025px) {
+    #nomesocial{
+        font-size: 80px;
+        }
+ 
+    li{
+        margin: 40px;
+        font-size: 35px;
+        }
+
+        #apresentacao{
+            font-size: 30px;
+               }
+
+               #apresentacao span{
+                font-size: 30px;
+                   }
+                }
+                        
+
+       
+
+
+        
+
+
+
+        
