@@ -1,0 +1,251 @@
+
+header{
+    display: flex;
+}
+#nomesocial{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    margin: 10px;
+}
+
+ul{
+    margin: 10px;
+    display: flex;
+    }
+
+    li{
+        margin: 30px;
+        font-size: 20px;
+        color: antiquewhite;
+    }
+
+    a{
+        color: aqua;
+    }
+
+    #tamanho-section-principal{
+        height: 500px;
+        margin: 20px;
+        border: 4px solid cyan;
+        border-radius: 20px;
+        box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+    }
+
+    #principal{
+        color: white;
+        }
+
+    #principal span {
+        color: gold;
+        font-size: 20px;
+        display: flex;
+        
+    }
+
+    #principal #lado-lado{
+        display: flex;
+    }
+    
+    #apresentacao{
+        height: 300px;
+        width: 50%;
+        margin: 20px;
+           }
+
+           
+           #foto-perfil {
+            width: 500px;  
+            height: 500px; 
+            overflow: hidden; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+       
+        }
+        
+        
+        
+        #sobre{
+            margin: 10px;
+            color: white;
+            text-align: center;
+            border: 4px solid cyan;
+            border-radius: 20px;
+            box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+        }
+
+        #sobre span {
+            color: gold;
+            font-size: 20px;
+            display: flex;
+            margin: 10px;
+            display: inline-block;
+            
+            
+        }
+
+        #sobre h1{
+            color: gold;
+            font-size: 50px;  
+        }
+
+        #sobre p {
+            text-align: center; 
+        }
+
+        #sobre .citacao{
+           
+            color: blue;
+            
+        }
+
+       
+
+       
+        #btn-download {
+            margin: 20px;
+            background: linear-gradient(45deg, blue, aqua);
+            color: red;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+           
+        }
+        
+        #btn-download:hover {
+            background: linear-gradient(45deg, aqua, blue);
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        #btn-download a {
+            color: inherit; 
+            display: block; 
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            padding: 12px 24px;
+        }
+
+        #habilidades{
+            margin: 10px;
+            border: 4px solid cyan;
+            border-radius: 20px;
+            box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+            color: white;
+
+        }
+/*
+        .cartao{
+            font-size: 30px;
+            
+
+        }
+
+        .cartao img{
+            transform: scale(0.10);
+            
+        }
+
+        */
+        #habilidades {
+            margin: 20px;
+            padding: 20px;
+            border: 4px solid cyan;
+            border-radius: 20px;
+            box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+            text-align: center;
+        }
+        
+        #habilidades h1 {
+            font-size: 40px;
+            color: gold;
+            margin-bottom: 20px;
+        }
+
+            #container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                text-align: center;
+            
+            }
+        .cartao {
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .cartao:hover {
+            transform: scale(1.05); 
+        }
+        
+        .cartao img {
+            width: 80px; 
+            height: 80px;
+            object-fit: contain; 
+            margin-bottom: 10px;
+        }
+        
+        .cartao span {
+            font-size: 20px;
+            font-weight: bold;
+            color: cyan;
+        }
+        
+        #contatos{
+            margin: 10px;
+            color: gold;
+            font-size: 23px;
+            padding: 20px;
+            text-align: center;
+            border: 4px solid cyan;
+            border-radius: 20px;
+            box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+            
+        }
+        #contatos-container{
+            display: flex;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 10px;
+            
+        }
+        .social{
+            font-size: 60px;
+          }
+
+          #whats i{
+            color: green;
+          }
+
+          #insta i{
+            color: #E4405F;
+          }
+
+          #linkedin i{
+            color: #0077B5;
+          }
+
+          #GIT i{
+            color: white;
+          }
+
+
+
+        
